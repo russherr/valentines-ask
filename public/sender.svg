@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" fill="none">
+  <!-- Background -->
+  <circle cx="100" cy="100" r="100" fill="#FFF0E6"/>
+
+  <!-- Body/shoulders -->
+  <ellipse cx="100" cy="175" rx="52" ry="38" fill="#F9A8D4"/>
+
+  <!-- Neck -->
+  <rect x="90" y="132" width="20" height="18" rx="4" fill="#F5D0B0"/>
+
+  <!-- Head shape -->
+  <ellipse cx="100" cy="88" rx="40" ry="44" fill="#F5D0B0"/>
+
+  <!-- Ears -->
+  <ellipse cx="60" cy="90" rx="7" ry="9" fill="#F5D0B0"/>
+  <ellipse cx="140" cy="90" rx="7" ry="9" fill="#F5D0B0"/>
+
+  <!-- Long dark hair - back layer -->
+  <path d="M52 85 Q48 120 55 160 Q60 170 68 165 Q62 130 62 95Z" fill="#1A1A2E"/>
+  <path d="M148 85 Q152 120 145 160 Q140 170 132 165 Q138 130 138 95Z" fill="#1A1A2E"/>
+
+  <!-- Long dark hair - main -->
+  <path d="M58 78 Q58 42 100 36 Q142 42 142 78 Q140 55 100 48 Q60 55 58 78Z" fill="#1A1A2E"/>
+  <!-- Hair sides flowing down -->
+  <path d="M58 78 Q55 100 54 130 Q54 148 62 155 Q58 135 60 105 Q60 90 62 80Z" fill="#1A1A2E"/>
+  <path d="M142 78 Q145 100 146 130 Q146 148 138 155 Q142 135 140 105 Q140 90 138 80Z" fill="#1A1A2E"/>
+
+  <!-- Hair highlight -->
+  <path d="M72 50 Q80 44 90 46" stroke="#2A2A40" stroke-width="3" stroke-linecap="round" fill="none" opacity="0.3"/>
+
+  <!-- Eyebrows -->
+  <path d="M80 72 Q86 68 92 71" stroke="#1A1A2E" stroke-width="2" stroke-linecap="round" fill="none"/>
+  <path d="M108 71 Q114 68 120 72" stroke="#1A1A2E" stroke-width="2" stroke-linecap="round" fill="none"/>
+
+  <!-- Eyes -->
+  <ellipse cx="87" cy="80" rx="5" ry="5.5" fill="white"/>
+  <ellipse cx="113" cy="80" rx="5" ry="5.5" fill="white"/>
+  <circle cx="88" cy="80" r="3" fill="#3B2415"/>
+  <circle cx="114" cy="80" r="3" fill="#3B2415"/>
+  <circle cx="89" cy="79" r="1" fill="white"/>
+  <circle cx="115" cy="79" r="1" fill="white"/>
+
+  <!-- Eyelashes -->
+  <path d="M82 75 L80 73" stroke="#1A1A2E" stroke-width="1.2" stroke-linecap="round"/>
+  <path d="M85 74 L84 72" stroke="#1A1A2E" stroke-width="1.2" stroke-linecap="round"/>
+  <path d="M118 75 L120 73" stroke="#1A1A2E" stroke-width="1.2" stroke-linecap="round"/>
+  <path d="M115 74 L116 72" stroke="#1A1A2E" stroke-width="1.2" stroke-linecap="round"/>
+
+  <!-- Nose -->
+  <path d="M98 88 Q100 93 102 88" stroke="#D4A584" stroke-width="1.8" stroke-linecap="round" fill="none"/>
+
+  <!-- Warm smile -->
+  <path d="M90 99 Q100 110 110 99" stroke="#C0625A" stroke-width="2.5" stroke-linecap="round" fill="none"/>
+  <path d="M92 100 Q100 108 108 100" fill="white"/>
+
+  <!-- Blush -->
+  <ellipse cx="76" cy="94" rx="8" ry="5" fill="#F9A8D4" opacity="0.35"/>
+  <ellipse cx="124" cy="94" rx="8" ry="5" fill="#F9A8D4" opacity="0.35"/>
+
+  <!-- Top neckline -->
+  <path d="M84 148 Q100 156 116 148" stroke="#E88FB4" stroke-width="2" fill="none"/>
+</svg>

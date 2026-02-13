@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" fill="none">
+  <!-- Background -->
+  <circle cx="100" cy="100" r="100" fill="#FDDCB5"/>
+
+  <!-- Body/shoulders -->
+  <ellipse cx="100" cy="175" rx="55" ry="40" fill="#3B3B3B"/>
+
+  <!-- Neck -->
+  <rect x="88" y="130" width="24" height="20" rx="4" fill="#C68642"/>
+
+  <!-- Head shape -->
+  <ellipse cx="100" cy="90" rx="42" ry="46" fill="#C68642"/>
+
+  <!-- Ears -->
+  <ellipse cx="58" cy="92" rx="8" ry="10" fill="#C68642"/>
+  <ellipse cx="58" cy="92" rx="5" ry="7" fill="#B5753A"/>
+  <ellipse cx="142" cy="92" rx="8" ry="10" fill="#C68642"/>
+  <ellipse cx="142" cy="92" rx="5" ry="7" fill="#B5753A"/>
+
+  <!-- Hair (dark, short sides) -->
+  <path d="M58 80 Q58 44 100 40 Q142 44 142 80 Q140 55 100 50 Q60 55 58 80Z" fill="#2C1810"/>
+
+  <!-- Backward cap -->
+  <path d="M60 72 Q60 48 100 44 Q140 48 140 72 Q138 56 100 52 Q62 56 60 72Z" fill="#4A4A4A"/>
+  <rect x="58" y="68" width="84" height="8" rx="4" fill="#4A4A4A"/>
+  <!-- Cap brim (backward) -->
+  <path d="M60 76 Q58 76 56 78 Q54 82 56 84 Q58 82 62 80 Q60 78 60 76Z" fill="#3B3B3B"/>
+
+  <!-- Eyebrows -->
+  <path d="M78 74 Q84 70 92 73" stroke="#2C1810" stroke-width="2.5" stroke-linecap="round" fill="none"/>
+  <path d="M108 73 Q116 70 122 74" stroke="#2C1810" stroke-width="2.5" stroke-linecap="round" fill="none"/>
+
+  <!-- Eyes -->
+  <ellipse cx="86" cy="82" rx="5" ry="5.5" fill="white"/>
+  <ellipse cx="114" cy="82" rx="5" ry="5.5" fill="white"/>
+  <circle cx="87" cy="82" r="3" fill="#2C1810"/>
+  <circle cx="115" cy="82" r="3" fill="#2C1810"/>
+  <circle cx="88" cy="81" r="1" fill="white"/>
+  <circle cx="116" cy="81" r="1" fill="white"/>
+
+  <!-- Nose -->
+  <path d="M97 90 Q100 96 103 90" stroke="#A0623A" stroke-width="2" stroke-linecap="round" fill="none"/>
+
+  <!-- Friendly smile -->
+  <path d="M88 102 Q100 114 112 102" stroke="#2C1810" stroke-width="2.5" stroke-linecap="round" fill="none"/>
+  <path d="M90 103 Q100 111 110 103" fill="white"/>
+
+  <!-- Subtle beard shadow -->
+  <path d="M72 105 Q72 125 100 130 Q128 125 128 105" fill="#B5753A" opacity="0.2"/>
+
+  <!-- T-shirt collar -->
+  <path d="M82 148 Q100 158 118 148" stroke="#2E2E2E" stroke-width="2" fill="none"/>
+</svg>
