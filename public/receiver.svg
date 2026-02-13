@@ -1,53 +1,84 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" fill="none">
-  <!-- Background -->
-  <circle cx="100" cy="100" r="100" fill="#FDDCB5"/>
-
-  <!-- Body/shoulders -->
-  <ellipse cx="100" cy="175" rx="55" ry="40" fill="#3B3B3B"/>
-
-  <!-- Neck -->
-  <rect x="88" y="130" width="24" height="20" rx="4" fill="#C68642"/>
-
-  <!-- Head shape -->
-  <ellipse cx="100" cy="90" rx="42" ry="46" fill="#C68642"/>
-
-  <!-- Ears -->
-  <ellipse cx="58" cy="92" rx="8" ry="10" fill="#C68642"/>
-  <ellipse cx="58" cy="92" rx="5" ry="7" fill="#B5753A"/>
-  <ellipse cx="142" cy="92" rx="8" ry="10" fill="#C68642"/>
-  <ellipse cx="142" cy="92" rx="5" ry="7" fill="#B5753A"/>
-
-  <!-- Hair (dark, short sides) -->
-  <path d="M58 80 Q58 44 100 40 Q142 44 142 80 Q140 55 100 50 Q60 55 58 80Z" fill="#2C1810"/>
-
-  <!-- Backward cap -->
-  <path d="M60 72 Q60 48 100 44 Q140 48 140 72 Q138 56 100 52 Q62 56 60 72Z" fill="#4A4A4A"/>
-  <rect x="58" y="68" width="84" height="8" rx="4" fill="#4A4A4A"/>
-  <!-- Cap brim (backward) -->
-  <path d="M60 76 Q58 76 56 78 Q54 82 56 84 Q58 82 62 80 Q60 78 60 76Z" fill="#3B3B3B"/>
-
-  <!-- Eyebrows -->
-  <path d="M78 74 Q84 70 92 73" stroke="#2C1810" stroke-width="2.5" stroke-linecap="round" fill="none"/>
-  <path d="M108 73 Q116 70 122 74" stroke="#2C1810" stroke-width="2.5" stroke-linecap="round" fill="none"/>
-
-  <!-- Eyes -->
-  <ellipse cx="86" cy="82" rx="5" ry="5.5" fill="white"/>
-  <ellipse cx="114" cy="82" rx="5" ry="5.5" fill="white"/>
-  <circle cx="87" cy="82" r="3" fill="#2C1810"/>
-  <circle cx="115" cy="82" r="3" fill="#2C1810"/>
-  <circle cx="88" cy="81" r="1" fill="white"/>
-  <circle cx="116" cy="81" r="1" fill="white"/>
-
-  <!-- Nose -->
-  <path d="M97 90 Q100 96 103 90" stroke="#A0623A" stroke-width="2" stroke-linecap="round" fill="none"/>
-
-  <!-- Friendly smile -->
-  <path d="M88 102 Q100 114 112 102" stroke="#2C1810" stroke-width="2.5" stroke-linecap="round" fill="none"/>
-  <path d="M90 103 Q100 111 110 103" fill="white"/>
-
-  <!-- Subtle beard shadow -->
-  <path d="M72 105 Q72 125 100 130 Q128 125 128 105" fill="#B5753A" opacity="0.2"/>
-
-  <!-- T-shirt collar -->
-  <path d="M82 148 Q100 158 118 148" stroke="#2E2E2E" stroke-width="2" fill="none"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <clipPath id="circleClip1">
+      <circle cx="256" cy="256" r="230"/>
+    </clipPath>
+  </defs>
+  
+  <!-- Background circle -->
+  <circle cx="256" cy="256" r="230" fill="#F5D6B8"/>
+  
+  <g clip-path="url(#circleClip1)">
+    <!-- Body / Black shirt -->
+    <ellipse cx="256" cy="520" rx="150" ry="130" fill="#2D2D2D"/>
+    
+    <!-- Blue varsity jacket - left side -->
+    <path d="M106 520 Q106 400 140 370 Q160 355 175 360 L175 520 Z" fill="#2855A0"/>
+    <!-- Blue varsity jacket - right side -->
+    <path d="M406 520 Q406 400 372 370 Q352 355 337 360 L337 520 Z" fill="#2855A0"/>
+    
+    <!-- Jacket collar/lapel left -->
+    <path d="M175 360 Q190 355 205 370 L200 400 L175 395 Z" fill="#2855A0"/>
+    <!-- Jacket collar/lapel right -->
+    <path d="M337 360 Q322 355 307 370 L312 400 L337 395 Z" fill="#2855A0"/>
+    
+    <!-- Jacket stripe cuffs - left -->
+    <rect x="106" y="490" width="69" height="8" rx="2" fill="#FFFFFF" opacity="0.5"/>
+    <rect x="106" y="502" width="69" height="4" rx="2" fill="#2855A0"/>
+    
+    <!-- Jacket stripe cuffs - right -->
+    <rect x="337" y="490" width="69" height="8" rx="2" fill="#FFFFFF" opacity="0.5"/>
+    <rect x="337" y="502" width="69" height="4" rx="2" fill="#2855A0"/>
+    
+    <!-- Neck -->
+    <rect x="230" y="310" width="52" height="45" rx="10" fill="#D4A574"/>
+    
+    <!-- Black shirt neckline -->
+    <path d="M220 340 Q256 365 292 340 Q292 360 256 375 Q220 360 220 340Z" fill="#2D2D2D"/>
+    
+    <!-- Head shape -->
+    <ellipse cx="256" cy="230" rx="95" ry="105" fill="#D4A574"/>
+    
+    <!-- Hair - top -->
+    <ellipse cx="256" cy="145" rx="90" ry="40" fill="#1A1A1A"/>
+    <!-- Hair - sides wrapping around -->
+    <path d="M166 170 Q166 130 200 120 Q240 110 256 115 Q272 110 312 120 Q346 130 346 170 Q340 155 310 150 Q275 143 256 145 Q237 143 202 150 Q172 155 166 170Z" fill="#1A1A1A"/>
+    <!-- Hair fringe/bangs -->
+    <path d="M180 170 Q200 150 230 155 Q250 158 256 155 Q270 150 290 155 Q320 160 335 170 Q320 160 300 158 Q280 155 256 160 Q235 155 215 158 Q195 162 180 170Z" fill="#1A1A1A"/>
+    
+    <!-- Left eyebrow -->
+    <path d="M200 205 Q215 195 235 200" stroke="#1A1A1A" stroke-width="4" fill="none" stroke-linecap="round"/>
+    <!-- Right eyebrow -->
+    <path d="M277 200 Q297 195 312 205" stroke="#1A1A1A" stroke-width="4" fill="none" stroke-linecap="round"/>
+    
+    <!-- Left eye -->
+    <ellipse cx="218" cy="225" rx="14" ry="12" fill="#FFFFFF"/>
+    <circle cx="220" cy="226" r="7" fill="#1A1A1A"/>
+    <circle cx="222" cy="223" r="2.5" fill="#FFFFFF"/>
+    
+    <!-- Right eye -->
+    <ellipse cx="294" cy="225" rx="14" ry="12" fill="#FFFFFF"/>
+    <circle cx="292" cy="226" r="7" fill="#1A1A1A"/>
+    <circle cx="294" cy="223" r="2.5" fill="#FFFFFF"/>
+    
+    <!-- Nose -->
+    <ellipse cx="256" cy="262" rx="10" ry="7" fill="#C4956A" opacity="0.6"/>
+    
+    <!-- Mouth - slight smile -->
+    <path d="M237 285 Q248 296 256 296 Q264 296 275 285" stroke="#8B6341" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+    
+    <!-- Ears -->
+    <ellipse cx="161" cy="235" rx="14" ry="20" fill="#D4A574"/>
+    <ellipse cx="161" cy="235" rx="8" ry="13" fill="#C4956A" opacity="0.4"/>
+    <ellipse cx="351" cy="235" rx="14" ry="20" fill="#D4A574"/>
+    <ellipse cx="351" cy="235" rx="8" ry="13" fill="#C4956A" opacity="0.4"/>
+    
+    <!-- Jacket patch - left chest (circle emblem) -->
+    <circle cx="145" cy="420" r="15" fill="#1A3A6E" stroke="#FFFFFF" stroke-width="1.5"/>
+    <circle cx="145" cy="420" r="8" fill="#FFFFFF" opacity="0.3"/>
+    
+    <!-- Jacket patch - right chest (rectangle emblem) -->
+    <rect x="338" y="407" width="22" height="16" rx="3" fill="#CC3333"/>
+    <rect x="342" y="426" width="30" height="6" rx="2" fill="#FFFFFF" opacity="0.5"/>
+  </g>
 </svg>
