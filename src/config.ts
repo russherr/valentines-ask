@@ -60,7 +60,7 @@ const config: Config = {
     avatar: "/receiver.svg",
     subtitle: "Economics · SBU 2023",
     bio: "Creative, adventurous, and always down for a good time",
-    tags: ["Travel", "Photography", "Coffee"],
+    tags: ["Sports", "Sleep", "Coffee"],
   },
 
   // -- Chat conversation ---------------------------------------
@@ -86,8 +86,8 @@ const config: Config = {
     phase2: {
       headerName: "Lablab",
       messages: [
-        { side: "left", text: "hey babe 🥰" },
-        { side: "right", text: "hey you 💕" },
+        { side: "left", text: "lablabbbb" },
+        { side: "right", text: "yes mahaaa;" },
         { side: "left", text: "whatcha up to?" },
         { side: "right", text: "just thinking about you, honestly" },
         { side: "left", text: "babe can I ask you something?" },
@@ -111,11 +111,10 @@ const config: Config = {
     date: "February 14th",
     lines: [
       "You and me.",
-      "A night I've been planning just for you.",
-      "Just bring yourself, love.",
+      "This year, next year, and for the rest of our lives.",
     ],
-    signoff: "— I'll pick you up",
-    hint: "Save the date 💌",
+    signoff: "— See you soon!",
+    hint: "Happy Valentine's! I love you soooo muchyyy",
   },
 };
 
