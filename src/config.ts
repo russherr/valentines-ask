@@ -80,7 +80,7 @@ const config: Config = {
     },
 
     // Text shown during the blackout transition between phases
-    blackoutText: "Best swipe of my life.",
+    blackoutText: "Best decision of my life.",
 
     // Phase 2: "Today" — present-day messages, more intimate
     phase2: {
