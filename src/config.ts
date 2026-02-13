@@ -75,7 +75,7 @@ const config: Config = {
         { side: "right", text: "Honestly? Just seeing what's out there" },
         { side: "right", text: "But I'm glad I swiped right 😄" },
         { side: "left", text: "Same here, you seem really cool" },
-        { side: "right", text: "Let's grab coffee sometime?" },
+        { side: "right", text: "Wanna come to Jom's house and grab some drink with Oig and the others?" },
       ],
     },
 
@@ -87,9 +87,9 @@ const config: Config = {
       headerName: "Lablab",
       messages: [
         { side: "left", text: "lablabbbb" },
-        { side: "right", text: "yes mahaaa;" },
-        { side: "left", text: "whatcha up to?" },
-        { side: "right", text: "just thinking about you, honestly" },
+        { side: "right", text: "yes mahaaal ko" },
+        { side: "left", text: "ano gawa uuuu" },
+        { side: "right", text: "just cleaning the house, mahal ko" },
         { side: "left", text: "babe can I ask you something?" },
       ],
     },
