@@ -49,16 +49,16 @@ export interface Config {
 const config: Config = {
   // -- Who's sending this (you) --------------------------------
   sender: {
-    name: "Alex",
+    name: "Nissa",
     avatar: "/sender.svg",
   },
 
   // -- Who you're asking (your crush / partner) ----------------
   receiver: {
-    name: "Jordan",
-    age: 25,
+    name: "Leian",
+    age: 26,
     avatar: "/receiver.svg",
-    subtitle: "Designer · NYU 2022",
+    subtitle: "Economics · SBU 2023",
     bio: "Creative, adventurous, and always down for a good time",
     tags: ["Travel", "Photography", "Coffee"],
   },
@@ -67,7 +67,7 @@ const config: Config = {
   chat: {
     // Phase 1: "Early days" — the first messages when you matched
     phase1: {
-      headerName: "Jordan",
+      headerName: "Leian",
       messages: [
         { side: "left", text: "Hey, we matched! 😊" },
         { side: "right", text: "Hi! Fancy seeing you here 👋" },
@@ -84,7 +84,7 @@ const config: Config = {
 
     // Phase 2: "Today" — present-day messages, more intimate
     phase2: {
-      headerName: "Babe",
+      headerName: "Lablab",
       messages: [
         { side: "left", text: "hey babe 🥰" },
         { side: "right", text: "hey you 💕" },
