@@ -72,7 +72,7 @@ const config: Config = {
         { side: "left", text: "Hey, we matched!" },
         { side: "right", text: "Hi! Are you the cute guy from Economics?" },
         { side: "left", text: "Yeah, how'd you know? LOL" },
-        { side: "right", text: "Actualy, I've had a little crush on you for awhile now" },
+        { side: "right", text: "Actually, I've had a little crush on you for awhile now" },
         { side: "right", text: "You're so cute when you smile!" },
         { side: "left", text: "Haha, thanks for the compliment!" },
         { side: "right", text: "Wanna come to Jom's house and grab some drinks with Oig and the others?" },
